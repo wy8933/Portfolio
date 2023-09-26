@@ -8,14 +8,17 @@ public class LittleBossCollider : MonoBehaviour {
 
     [Tooltip("hp of the small boss")]
     private int blood = 100;
-	
+
+    [Tooltip("The small boss game object"), SerializeField]
+    private GameObject smallBoss;
 	// Update is called once per frame
 	void Update () {
         //died when the hp is less than or equals to 0
         if (blood <= 0)
         {
             //destroy the small boss
-            Destroy(gameObject);
+            Instantiate(explode, this.transform.position, Quaternion.identity);
+            Destroy(smallBoss);
         }
 	}
 
@@ -25,14 +28,15 @@ public class LittleBossCollider : MonoBehaviour {
         if(others.tag == "Player")
         {
             Status.status.lifeModify(-1);
-            Destroy(gameObject);
             Instantiate(explode, this.transform.position,Quaternion.identity);
+            Destroy(smallBoss);
         }
 
         //Deduct the small boss's hp if collide with bullet
         if (others.tag == "bullet")
         {
             blood -= 50;
+            Destroy(others.gameObject);
         }
 
         //kill the small boss if collide the the lazer

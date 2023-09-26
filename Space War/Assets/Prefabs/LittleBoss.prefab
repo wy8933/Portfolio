@@ -143,6 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explode: {fileID: 1637415446925002830, guid: f436062ad41dd8c4e929487703597b7f, type: 3}
+  smallBoss: {fileID: 1139415571467368}
 --- !u!1 &1944341486185744
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,6 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explode: {fileID: 1637415446925002830, guid: f436062ad41dd8c4e929487703597b7f, type: 3}
+  smallBoss: {fileID: 1139415571467368}
 --- !u!1 &1973387413172512
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explode: {fileID: 1637415446925002830, guid: f436062ad41dd8c4e929487703597b7f, type: 3}
+  smallBoss: {fileID: 1139415571467368}
 --- !u!1001 &7678024734401857158
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ public class GenerateEnemies : MonoBehaviour {
         if (enemyTimer >= 0.5f)
         {
             enemyTimer = 0;
-            float x = Random.Range(-4.5f, 5f);
+            float x = Random.Range(-4.5f, 4.5f);
             Instantiate(enemyPrefab, new Vector3(x, 7, -0.5f), Quaternion.identity);
         }
 

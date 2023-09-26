@@ -22,8 +22,9 @@ public class EnemyBullet : MonoBehaviour {
         if(others.tag == "Player")
         {
             Instantiate(explode, transform.position, Quaternion.identity);
-            Destroy(gameObject);
             Status.status.lifeModify(-1);
+            Destroy(gameObject);
+            
         }
     }
 }

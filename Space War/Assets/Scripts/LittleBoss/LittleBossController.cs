@@ -11,7 +11,8 @@ public class LittleBossController : MonoBehaviour {
 	
 	void Update () {
         //move the gameobject downward
-		transform.Translate(new Vector3(0, 0, -1) * Time.deltaTime * 9);
+		transform.Translate(new Vector3(0, 0, -1) * Time.deltaTime * 4);
 	}
+
 }
 

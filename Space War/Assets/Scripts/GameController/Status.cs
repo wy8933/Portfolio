@@ -34,7 +34,7 @@ public class Status : MonoBehaviour {
     {
         score = 0;
         SBNumber = 3;
-        life = 33;
+        life = 3;
         damageCooldown = 0;
     }
 
