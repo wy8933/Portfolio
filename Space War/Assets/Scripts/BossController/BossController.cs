@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//boss控制代码
 public class BossController : MonoBehaviour {
     //dertermine to direction of move movement
     private bool left = true;
