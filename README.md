@@ -1,8 +1,6 @@
-#This is the portfolio for Weijie Ye.
-
-# Credits:
+This is the portfolio for Weijie Ye.
 ##  Space War: (Please play in full screen)[https://wy8933.github.io/Portfolio/](https://wy8933.github.io/Portfolio/)
-###    Asset(All from Unity Asset store): 
+###    Credits(All from Unity Asset store): 
       ```
       Sabri Ayes
       Ansimuz
@@ -15,7 +13,7 @@
       Dr.Game
       ```
 ##  Sword Rush:
-###    Asset: 
+###    Credits: 
       ```
       Leohpaz, https://leohpaz.itch.io/minifantasy-dungeon-sfx-pack
       Frosty Rabbid, https://frosty-rabbid.itch.io/rpg-ability-icons 
