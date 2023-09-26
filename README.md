@@ -1,6 +1,6 @@
 #This is the portfolio for Weijie Ye.
 
-#Credits:
+# Credits:
 ##  Space War:
 ###    Asset(All from Unity Asset store): 
       ```
