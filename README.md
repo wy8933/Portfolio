@@ -1,7 +1,7 @@
 #This is the portfolio for Weijie Ye.
 
 # Credits:
-##  Space War: [The game link](https://wy8933.github.io/Portfolio/)
+##  Space War: [https://wy8933.github.io/Portfolio/](https://wy8933.github.io/Portfolio/)
 ###    Asset(All from Unity Asset store): 
       ```
       Sabri Ayes
