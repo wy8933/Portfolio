@@ -6,10 +6,6 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
-    [Tooltip("Button to restart the game"),SerializeField]
-    public Button restartButton;
-    [Tooltip("Button to quit the game"), SerializeField]
-    public Button quitButton;
     [Tooltip("Text to show the game is over"), SerializeField]
     public Text GameOver;
 
@@ -30,13 +26,15 @@ public class GameController : MonoBehaviour {
             pauseTime += Time.deltaTime;
             if (pauseTime >= 0.4f)
             {
-                //show the text and button
-                restartButton.gameObject.SetActive(true);
-                quitButton.gameObject.SetActive(true);
                 GameOver.gameObject.SetActive(true);
 
                 //pause the game
                 Time.timeScale = 0;
+
+                //restart game
+                if (Input.GetKeyDown(KeyCode.R)){
+                    SceneManager.LoadScene("Plane");
+                }
             }
         }
 

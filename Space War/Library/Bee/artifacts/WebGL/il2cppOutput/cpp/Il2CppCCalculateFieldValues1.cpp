@@ -5780,8 +5780,6 @@ struct FireLightController_tDCBAD46DF72DD9AEDBBE041947C2526D63FB80D4  : public M
 };
 struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___restartButton;
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___quitButton;
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___GameOver;
 	float ___pauseTime;
 };
@@ -9173,9 +9171,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3995[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3996[1] = 
 {
 	static_cast<int32_t>(offsetof(DestroyByTime_t18E6EAAB741F2700B0D1C25FBC838B19CE65AEA9, ___destroyTime)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3997[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3997[2] = 
 {
-	static_cast<int32_t>(offsetof(GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09, ___restartButton)),static_cast<int32_t>(offsetof(GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09, ___quitButton)),static_cast<int32_t>(offsetof(GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09, ___GameOver)),static_cast<int32_t>(offsetof(GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09, ___pauseTime)),};
+	static_cast<int32_t>(offsetof(GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09, ___GameOver)),static_cast<int32_t>(offsetof(GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09, ___pauseTime)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3998[6] = 
 {
 	static_cast<int32_t>(offsetof(GenerateEnemies_t9D7CCCB717A5C670DB0006284B90586C15F7D9CD, ___smallBoss)),static_cast<int32_t>(offsetof(GenerateEnemies_t9D7CCCB717A5C670DB0006284B90586C15F7D9CD, ___enemyPrefab)),static_cast<int32_t>(offsetof(GenerateEnemies_t9D7CCCB717A5C670DB0006284B90586C15F7D9CD, ___boss)),static_cast<int32_t>(offsetof(GenerateEnemies_t9D7CCCB717A5C670DB0006284B90586C15F7D9CD, ___enemyTimer)),static_cast<int32_t>(offsetof(GenerateEnemies_t9D7CCCB717A5C670DB0006284B90586C15F7D9CD, ___bossTimer)),static_cast<int32_t>(offsetof(GenerateEnemies_t9D7CCCB717A5C670DB0006284B90586C15F7D9CD, ____switch)),};
