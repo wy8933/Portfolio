@@ -1287,8 +1287,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60.8
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 7.407995
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1461,7 +1461,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
