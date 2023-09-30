@@ -355,6 +355,7 @@
 "Assets/Scripts/GameController/DestroyByTime.cs"
 "Assets/Scripts/GameController/GameController.cs"
 "Assets/Scripts/GameController/GenerateEnemies.cs"
+"Assets/Scripts/GameController/MenuManager.cs"
 "Assets/Scripts/GameController/Status.cs"
 "Assets/Scripts/ItemMovement.cs"
 "Assets/Scripts/LittleBoss/LittleBossCollider.cs"

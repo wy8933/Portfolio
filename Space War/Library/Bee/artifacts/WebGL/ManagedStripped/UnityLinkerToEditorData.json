@@ -62,6 +62,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -78,6 +79,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -125,6 +127,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -144,7 +147,9 @@
           },
           {
             "name": "Cubemap",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Main.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -163,6 +168,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 1,
@@ -185,6 +191,7 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -219,6 +226,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 1,
@@ -227,6 +235,7 @@
           {
             "name": "Light",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -247,6 +256,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -261,6 +271,7 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -293,6 +304,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -307,6 +319,7 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 1,
@@ -315,6 +328,7 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 1,
@@ -347,6 +361,7 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -361,6 +376,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -393,6 +409,7 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -413,6 +430,7 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -446,18 +464,14 @@
           },
           {
             "name": "Texture",
-            "scenes": [
-              "Assets/Scenes/Plane.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
             "name": "Texture2D",
-            "scenes": [
-              "Assets/Scenes/Plane.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -921,6 +935,7 @@
           {
             "name": "Font",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -964,6 +979,7 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,
@@ -978,6 +994,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
+              "Assets/Scenes/Main.unity",
               "Assets/Scenes/Plane.unity"
             ],
             "dependencyType": 0,

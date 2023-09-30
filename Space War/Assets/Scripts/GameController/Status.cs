@@ -11,7 +11,6 @@ public class Status : MonoBehaviour {
 
     [Tooltip("The number of special bullet player owns")]
     public int SBNumber;
-    public Text SBText;
 
     [Tooltip("The remaining life player owns")]
     public int life;
@@ -40,10 +39,8 @@ public class Status : MonoBehaviour {
 
     void Update () {
         ///update the text to the screen
-        scoreText.text = score.ToString();
-        lifeText.text = life.ToString();
-        SBText.text = SBNumber.ToString();
-
+        scoreText.text = "score: " + score.ToString();
+        lifeText.text = "life: " + life.ToString();
         damageCooldown -= Time.deltaTime;
 	}
 

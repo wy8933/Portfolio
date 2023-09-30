@@ -48,7 +48,7 @@ public class GameController : MonoBehaviour {
     /// </summary>
     public void ReStratGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("plane");
     }
 
     /// <summary>
