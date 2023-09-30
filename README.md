@@ -13,6 +13,7 @@ This is the portfolio for Weijie Ye.
       Dr.Game
       ```
 ##  Sword Rush:
+![](Game_exe/SwordRush/SwordRush.mp4)
 ###    Credits: 
       ```
       Leohpaz, https://leohpaz.itch.io/minifantasy-dungeon-sfx-pack
