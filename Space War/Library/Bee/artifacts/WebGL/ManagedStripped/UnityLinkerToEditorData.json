@@ -175,14 +175,6 @@
             "icon": null
           },
           {
-            "name": "FlareLayer",
-            "scenes": [
-              "Assets/Scenes/Plane.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "GameManager",
             "scenes": [],
             "dependencyType": 1,
@@ -517,12 +509,6 @@
             "icon": "package/com.unity.modules.imgui"
           },
           {
-            "name": "Required by Input Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.input"
-          },
-          {
             "name": "Required by InputLegacy Module",
             "scenes": [],
             "dependencyType": 2,
@@ -551,12 +537,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
-          },
-          {
-            "name": "Required by Subsystems Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.subsystems"
           },
           {
             "name": "Required by TextCoreFontEngine Module",
@@ -593,12 +573,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.webgl"
-          },
-          {
-            "name": "Required by XR Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.xr"
           }
         ]
       },
@@ -610,17 +584,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
-          }
-        ]
-      },
-      {
-        "name": "Input",
-        "dependencies": [
-          {
-            "name": "Required by XR Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.xr"
           }
         ]
       },
@@ -645,34 +608,16 @@
         "name": "JSONSerialize",
         "dependencies": [
           {
-            "name": "Required by Input Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.input"
-          },
-          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
           },
           {
-            "name": "Required by Subsystems Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.subsystems"
-          },
-          {
             "name": "Required by UIElements Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
-          },
-          {
-            "name": "Required by XR Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.xr"
           }
         ]
       },
@@ -751,12 +696,6 @@
             ],
             "dependencyType": 0,
             "icon": null
-          },
-          {
-            "name": "Required by XR Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.xr"
           }
         ]
       },
@@ -799,12 +738,6 @@
             "icon": "package/com.unity.modules.imgui"
           },
           {
-            "name": "Required by Input Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.input"
-          },
-          {
             "name": "Required by InputLegacy Module",
             "scenes": [],
             "dependencyType": 2,
@@ -833,12 +766,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
-          },
-          {
-            "name": "Required by Subsystems Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.subsystems"
           },
           {
             "name": "Required by TextCoreFontEngine Module",
@@ -875,23 +802,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.webgl"
-          },
-          {
-            "name": "Required by XR Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.xr"
-          }
-        ]
-      },
-      {
-        "name": "Subsystems",
-        "dependencies": [
-          {
-            "name": "Required by XR Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.xr"
           }
         ]
       },
@@ -1022,10 +932,6 @@
             "icon": "class/DefaultAsset"
           }
         ]
-      },
-      {
-        "name": "XR",
-        "dependencies": []
       }
     ]
   }
