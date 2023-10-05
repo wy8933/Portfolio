@@ -419,13 +419,7 @@
         411,
         412,
         413,
-        414,
-        415,
-        416,
-        417,
-        418,
-        419,
-        420
+        414
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -18626,116 +18620,34 @@
       "DebugActionIndex": 392
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"D:/Portfolio/Portfolio/Space War/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/Portfolio/Portfolio/Space War/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/Build/docs.framework.js",
+      "DisplayName": "Copying docs.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "D:/Portfolio/Portfolio/docs/Build/docs.framework.js"
       ],
       "ToBuildDependencies": [
         392
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 393
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/docs.framework.js.gz_1wwm.info",
-      "DisplayName": "Writing docs.framework.js.gz_1wwm.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 162441,
-      "PayloadLength": 465,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/docs.framework.js.gz_1wwm.info"
-      ],
-      "DebugActionIndex": 394
-    },
-    {
-      "Annotation": "GzipMarker D:/Portfolio/Portfolio/docs/Build/docs.framework.js.gz",
-      "DisplayName": "GzipMarker docs.framework.js",
-      "Action": "\"D:\\Unity\\UnityVersion\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Unity\\UnityVersion\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\docs.framework.js.gz_1wwm.info\"",
+      "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/Build/docs.wasm",
+      "DisplayName": "Copying docs.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/docs.framework.js.gz_1wwm.info",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "D:/Portfolio/Portfolio/docs/Build/docs.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        393,
-        394
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 395
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"D:/Portfolio/Portfolio/Space War/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/Portfolio/Portfolio/Space War/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/7z.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "D:/Portfolio/Portfolio/docs/Build/docs.wasm"
       ],
       "ToBuildDependencies": [
         390
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 396
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/docs.wasm.gz_mtih.info",
-      "DisplayName": "Writing docs.wasm.gz_mtih.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 162996,
-      "PayloadLength": 449,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/docs.wasm.gz_mtih.info"
-      ],
-      "DebugActionIndex": 397
-    },
-    {
-      "Annotation": "GzipMarker D:/Portfolio/Portfolio/docs/Build/docs.wasm.gz",
-      "DisplayName": "GzipMarker docs.wasm",
-      "Action": "\"D:\\Unity\\UnityVersion\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Unity\\UnityVersion\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\docs.wasm.gz_mtih.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/docs.wasm.gz_mtih.info",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "D:/Portfolio/Portfolio/docs/Build/docs.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        396,
-        397
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 398
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -18750,7 +18662,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 399
+      "DebugActionIndex": 395
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -18765,20 +18677,20 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 396
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 163533,
+      "PayloadOffset": 162431,
       "PayloadLength": 1961,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 401
+      "DebugActionIndex": 397
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -18805,73 +18717,32 @@
       "ToBuildDependencies": [
         2,
         5,
-        401
+        397
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 402
+      "DebugActionIndex": 398
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"D:/Portfolio/Portfolio/Space War/Library/Bee/artifacts/WebGL\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/7z.exe\" a -tgzip \"D:/Portfolio/Portfolio/Space War/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/Build/docs.data",
+      "DisplayName": "Copying docs.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "D:/Portfolio/Portfolio/docs/Build/docs.data"
       ],
       "ToBuildDependencies": [
-        402
+        398
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 403
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/docs.data.gz_kglm.info",
-      "DisplayName": "Writing docs.data.gz_kglm.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 165584,
-      "PayloadLength": 426,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/docs.data.gz_kglm.info"
-      ],
-      "DebugActionIndex": 404
-    },
-    {
-      "Annotation": "GzipMarker D:/Portfolio/Portfolio/docs/Build/docs.data.gz",
-      "DisplayName": "GzipMarker docs.data",
-      "Action": "\"D:\\Unity\\UnityVersion\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:\\Unity\\UnityVersion\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\docs.data.gz_kglm.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/docs.data.gz_kglm.info",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "D:/Portfolio/Portfolio/docs/Build/docs.data.gz"
-      ],
-      "ToBuildDependencies": [
-        403,
-        404
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 405
+      "DebugActionIndex": 399
     },
     {
       "Annotation": "PreprocessJS D:/Portfolio/Portfolio/docs/Build/docs.loader.js",
       "DisplayName": "PreprocessJS docs.loader",
-      "Action": "cd /d \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='D\\x3a/Portfolio/Portfolio/docs/Build/docs.loader.js'\"  \"locals.webglIncludes='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Space War'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='docs.data.gz'\" \"FRAMEWORK_FILENAME='docs.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='docs.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='docs.loader.js'\"",
+      "Action": "cd /d \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='D\\x3a/Portfolio/Portfolio/docs/Build/docs.loader.js'\"  \"locals.webglIncludes='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Space War'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='docs.data'\" \"FRAMEWORK_FILENAME='docs.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='docs.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='docs.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -18880,12 +18751,12 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 406
+      "DebugActionIndex": 400
     },
     {
       "Annotation": "PreprocessJS D:/Portfolio/Portfolio/docs/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd /d \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/Portfolio/Portfolio/docs/index.html'\"  \"locals.webglIncludes='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Space War'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='docs.data.gz'\" \"FRAMEWORK_FILENAME='docs.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='docs.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='docs.loader.js'\"",
+      "Action": "cd /d \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/Portfolio/Portfolio/docs/index.html'\"  \"locals.webglIncludes='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Space War'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='docs.data'\" \"FRAMEWORK_FILENAME='docs.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='docs.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='docs.loader.js'\"",
       "Inputs": [
         "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -18894,7 +18765,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 407
+      "DebugActionIndex": 401
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/favicon.ico",
@@ -18906,7 +18777,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 408
+      "DebugActionIndex": 402
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/fullscreen-button.png",
@@ -18918,7 +18789,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 409
+      "DebugActionIndex": 403
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/MemoryProfiler.png",
@@ -18930,7 +18801,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 410
+      "DebugActionIndex": 404
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/progress-bar-empty-dark.png",
@@ -18942,7 +18813,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 411
+      "DebugActionIndex": 405
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/progress-bar-empty-light.png",
@@ -18954,7 +18825,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 412
+      "DebugActionIndex": 406
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/progress-bar-full-dark.png",
@@ -18966,7 +18837,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 413
+      "DebugActionIndex": 407
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/progress-bar-full-light.png",
@@ -18978,12 +18849,12 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 414
+      "DebugActionIndex": 408
     },
     {
       "Annotation": "PreprocessJS D:/Portfolio/Portfolio/docs/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd /d \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/Portfolio/Portfolio/docs/TemplateData/style.css'\"  \"locals.webglIncludes='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Space War'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='docs.data.gz'\" \"FRAMEWORK_FILENAME='docs.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='docs.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='docs.loader.js'\"",
+      "Action": "cd /d \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/Portfolio/Portfolio/docs/TemplateData/style.css'\"  \"locals.webglIncludes='D\\x3a/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Space War'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='docs.data'\" \"FRAMEWORK_FILENAME='docs.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='docs.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='docs.loader.js'\"",
       "Inputs": [
         "D:/Unity/UnityVersion/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -18992,7 +18863,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 415
+      "DebugActionIndex": 409
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/unity-logo-dark.png",
@@ -19004,7 +18875,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 416
+      "DebugActionIndex": 410
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/unity-logo-light.png",
@@ -19016,7 +18887,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 417
+      "DebugActionIndex": 411
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/webgl-logo.png",
@@ -19028,7 +18899,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 418
+      "DebugActionIndex": 412
     },
     {
       "Annotation": "CopyFiles D:/Portfolio/Portfolio/docs/TemplateData/webmemd-icon.png",
@@ -19040,7 +18911,7 @@
       "Outputs": [
         "D:/Portfolio/Portfolio/docs/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 419
+      "DebugActionIndex": 413
     },
     {
       "Annotation": "Player",
@@ -19050,10 +18921,16 @@
       "ToBuildDependencies": [
         4,
         386,
+        393,
+        394,
         395,
-        398,
+        396,
         399,
         400,
+        401,
+        402,
+        403,
+        404,
         405,
         406,
         407,
@@ -19062,16 +18939,10 @@
         410,
         411,
         412,
-        413,
-        414,
-        415,
-        416,
-        417,
-        418,
-        419
+        413
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 420
+      "DebugActionIndex": 414
     }
   ],
   "FileSignatures": [
@@ -19439,7 +19310,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 420
+          "Player": 414
         }
 ,  "DefaultNodes": [
     0
