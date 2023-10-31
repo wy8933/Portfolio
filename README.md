@@ -1,7 +1,7 @@
 This is the portfolio for Weijie Ye.
 
 
-## Redemption Among Ruins [Game Design Doc Link](https://app.nuclino.com/weijie/Game-Design-Document/Game-overview-cb0bf946-9184-4d77-b602-b00383034aab)
+## Redemption Among Ruins [Game Design Doc Link](https://share.nuclino.com/p/Game-overview-ihxjEmc3vz8OMLSUj9m_lP)
 In progress
 
 ##  Space War:[Game Link](https://wy8933.github.io/Portfolio/)
