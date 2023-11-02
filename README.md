@@ -22,9 +22,6 @@ In progress
 ##  Sword Rush:
 
 https://github.com/wy8933/Portfolio/assets/112401719/8e3f5824-3bc5-41f6-8629-8e64c683ae90
-
-![a6bdb93b9e63fab9c07699eeaee7101](https://github.com/wy8933/Portfolio/assets/112401719/1cbd8f11-67de-4f3c-8499-3910fb9582cb)
-
 ###    Credits: 
       ```
       Leohpaz, https://leohpaz.itch.io/minifantasy-dungeon-sfx-pack
