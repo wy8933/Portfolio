@@ -2,7 +2,7 @@ This is the portfolio for Weijie Ye.
 
 
 ## Redemption Among Ruins (In progress)
-###Game Design Doc:
+### Game Design Doc:
 [Redemption_Among_Ruins_GDD.pdf](https://github.com/wy8933/Portfolio/files/13244186/Redemption_Among_Ruins_GDD.pdf)
 
 
