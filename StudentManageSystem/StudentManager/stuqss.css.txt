@@ -1,0 +1,3 @@
+QPushButton{border-radius:6;color:white;background-color:#34495e;}
+QLable{color:#34495e;}
+QLineEdit{border: 2px solid #bdc3c7;}
