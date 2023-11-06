@@ -8,6 +8,11 @@ This is the portfolio for Weijie Ye.
 ## Student Management System
 ### Description
 The Student Management System is a desktop application developed using Qt and SQLite. It is designed to manage and organize student records efficiently. The application provides functionalities for administrators to perform CRUD operations (Create, Read, Update, Delete) on student data, ensuring seamless management.
+#### Video:
+
+
+https://github.com/wy8933/Portfolio/assets/112401719/1c7361e1-c1a6-41a5-bdf7-214e63ffb7a7
+
 
 #### Student Record Management:
 Add a Student: Administrators can add new student records by inputting information such as name, age, grade, student ID, phone number, and major.
