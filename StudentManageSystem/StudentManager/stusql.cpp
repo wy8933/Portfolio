@@ -14,13 +14,9 @@ stuSql *stuSql::getInstance()
 {
     if(nullptr == ptrStuSql){
         ptrStuSql = new stuSql;
+        ptrStuSql->init();
     }
     return ptrStuSql;
-}
-
-stuSql::stuSql(QObject *parent): QObject{parent}
-{
-    init();
 }
 
 // Initialize database connection

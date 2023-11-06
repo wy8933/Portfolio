@@ -32,7 +32,6 @@ public:
     QSqlDatabase database;
 
     QString _username;
-    explicit stuSql(QObject *parent = nullptr);
 
     void init();
 

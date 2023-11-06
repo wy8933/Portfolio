@@ -9,7 +9,6 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
     ui(new Ui::MainWindow),
-    ptrStuSql(nullptr),
     dlgAddStudent(nullptr)
 {
     ui->setupUi(this);
@@ -46,7 +45,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     //expand all the widget at default
     ui->treeWidget->expandAll();
-    ui->stackedWidget->setCurrentWidget(0);
+    //ui->stackedWidget->setCurrentWidget(0);
 
     updateTable();
 }
