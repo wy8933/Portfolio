@@ -8,6 +8,11 @@ This is the portfolio for Weijie Ye.
 ## Student Management System
 ### Description
 The Student Management System is a desktop application developed using Qt and SQLite. It is designed to manage and organize student records efficiently. The application provides functionalities for administrators to perform CRUD operations (Create, Read, Update, Delete) on student data, ensuring seamless management.
+#### Video:
+
+
+https://github.com/wy8933/Portfolio/assets/112401719/1c7361e1-c1a6-41a5-bdf7-214e63ffb7a7
+
 
 #### Student Record Management:
 Add a Student: Administrators can add new student records by inputting information such as name, age, grade, student ID, phone number, and major.
@@ -25,21 +30,6 @@ Bulk Data Simulation: Allows administrators to simulate and create records for 1
 Qt: A free and open-source widget toolkit for creating graphical user interfaces.
 SQLite: A C-language library that implements a small and fast SQL database engine.
 
-##  Space War:[Game Link](https://wy8933.github.io/Portfolio/)
-[SpaceWarRecord.webm](https://github.com/wy8933/Portfolio/assets/112401719/57e257bc-5b2f-42c4-9d6f-00f0106a2bc0)
-
-###    Credits(All from Unity Asset store): 
-      ```
-      Sabri Ayes
-      Ansimuz
-      Ebal Studios
-      CGPitbull
-      Adam Moser
-      Iggy-design
-      TeKniKo
-      Dilapidated Meow
-      Dr.Game
-      ```
 ##  Sword Rush:
 
 https://github.com/wy8933/Portfolio/assets/112401719/8e3f5824-3bc5-41f6-8629-8e64c683ae90
