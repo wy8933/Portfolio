@@ -25,6 +25,7 @@ void Page_Login::on_btn_login_clicked()
     if(stuSql::getInstance()->checkLoginInfo(username,password)){
         stuSql::getInstance()->_username = username;
         emit sendLoginSuccess();
+        this->hide();
     }else{
         QMessageBox::information(nullptr,"Warning","Either your password or username is incorrect");
     }
