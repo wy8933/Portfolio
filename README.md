@@ -1,10 +1,5 @@
 This is the portfolio for Weijie Ye.
 
-
-## Redemption Among Ruins (In progress)
-### Game Design Doc:
-[Redemption_Among_Ruins_GDD.pdf](https://github.com/wy8933/Portfolio/files/13244186/Redemption_Among_Ruins_GDD.pdf)
-
 ## Student Management System
 ### Description
 The Student Management System is a desktop application developed using Qt and SQLite. It is designed to manage and organize student records efficiently. The application provides functionalities for administrators to perform CRUD operations (Create, Read, Update, Delete) on student data, ensuring seamless management.
